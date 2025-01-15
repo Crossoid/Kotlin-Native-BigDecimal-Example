@@ -39,12 +39,12 @@ kotlin {
         [...]
         val iosArm64Main by getting {
             dependencies {
-                implementation("com.crossoid:kotlin-native-bigdecimal:1.0")
+                implementation("com.crossoid:kotlin-native-bigdecimal:1.0.1")
             }
         }
         val iosSimulatorArm64Main by getting {
             dependencies {
-                implementation("com.crossoid:kotlin-native-bigdecimal:1.0")
+                implementation("com.crossoid:kotlin-native-bigdecimal:1.0.1")
             }
         }
     }
